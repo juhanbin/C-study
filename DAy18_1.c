@@ -51,18 +51,18 @@ void main()
     //printf("%c\n",i+65);
 
     //A~F까지 중 B를 제외하고 출력
-    //int temp=0;
-    //for(int i=0;i<5;i++)
-    //{
-    //    temp=i;
-    //    if(i>0)
-    //    {
-    //        temp++;
-    //    }
-    //    printf("%c\n",65+temp);
-    //}
+    int temp=0;
     for(int i=0;i<5;i++)
     {
-        printf("%c\n",i>0 ? i + 65 + 1 : i+65);
+        temp=i;
+        if(i>0)
+        {
+            temp++;
+        }
+        printf("%c\n",65+temp);
     }
+    //for(int i=0;i<5;i++)
+    //{
+    //    printf("%c\n",i>0 ? i + 65 + 1 : i+65);
+    //}
 }
