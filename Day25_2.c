@@ -4,8 +4,8 @@ void main()
 {
     const char * const fruit="apple";
     // fruit="banana";
-    printf("%s",fruit);
+    printf("%s\n",fruit);
 
     // *fruit='c';
-    printf("%s",fruit);
+    printf("%s\n",fruit);
 }
