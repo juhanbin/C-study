@@ -38,7 +38,7 @@ void main()
                 if(!isDup)
                 {  
                     printf("메뉴 가격: ");
-                    scanf("%d",arPrice+cnt);
+                    scanf_s("%d",arPrice+cnt);
                     strcpy(arName[cnt],sizeof(arName[cnt]));  
                     cnt++;
                 }
@@ -134,7 +134,7 @@ void main()
                     {
                         if(i==199)
                         {
-                            strcpy_s(arName[i],sizeof(arName[i]),arName[i+1]);
+                            strcpy(arName[i],sizeof(arName[i]),arName[i+1]);
                         }
                     }
                     cnt--;
