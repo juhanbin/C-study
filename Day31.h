@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+//함수부분 복습
 //전역변수(global variable)
 int num1=10;
 int num2=10;

@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+//함수부분 복습
 //1~10까지의 합을 구해주는 함수
 int getTotalFrom1To10() {
 	int total = 0;
