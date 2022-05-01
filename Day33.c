@@ -2,6 +2,7 @@
 #include<stdlib.h>
 
 //함수 정의
+//동적 항당
 void getMaxAndMin(int*, int, int*, int*);
 
 void main() {
