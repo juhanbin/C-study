@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//구조체 복습
 struct Animal
 {
     char name[200];

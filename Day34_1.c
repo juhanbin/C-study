@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-
+//구조체 복습
 #define l 3
 typedef struct Fruit
 {
