@@ -6,5 +6,6 @@ int main()
     int B=0;
     scanf("%d",&A);
     scanf("%d",&B);
-    printf("%d",A-B);
+    printf("%.9f",(double)A/B);
+    return 0;
 }
