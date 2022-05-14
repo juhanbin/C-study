@@ -2,16 +2,22 @@
 
 int main()
 {
-    int X,N=0;
-    scanf("%d %d",&X,&N);
-    for(int i=0;i<=X;i++)
+    
+    int arrdata[10]={0, };
+    int total=0;
+
+    for(int i=0;i<10;i++)
     {
-        int A=0;
-        scanf("%d",&A);
-        if(A<=N)
-        {
-            printf("%d\n",A);
-        }
+        scanf("%d",arrdata+i);
     }
-    return 0;
+    for(int i=0;i<10;i++)
+    {
+       
+        if(arrdata[i]%42!=arrdata[i+1]%42)
+        {
+            total++;
+        }
+        
+    }
+    printf("%d",total);
 }
