@@ -1,30 +1,24 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <string.h>
 
-int main()
-{
-    int N=0;
-    char OX=" ";
-    int total=0;
-    scanf("%d",&N);
+int main(void) {
+    
+    int input, score, sum;
+    char test[80];
 
-    while(1)
-    for(int i=0;i<N;i++)
-    {
-        while(1)
-        {
-            scanf("%c",&OX);
-            
-            if(OX=="O")
-            {
-                total+=1;
+    scanf("%d", &input);
+
+    for(int i=0; i<input; i++) {
+        sum = 0;
+        score = 1;
+        scanf("%s", test);
+        for(int j=0; j<strlen(test); j++) {
+            if(test[j] == 'O') {
+                sum += score;
+                score++;
             }
-
-            if(OX=='\0')
-            {
-                break;
-            }
-        }
-        printf("%d",total);
+            if(test[j] == 'X')  score = 1;
+        } 
+        printf("%d\n", sum);
     }
-    return 0;
 }
